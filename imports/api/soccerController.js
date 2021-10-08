@@ -11,6 +11,7 @@ let countries = [
 
 Meteor.methods({
     'soccer.countries': function(){
+        console.log("Hello");
         return countries;
     }
 });
