@@ -10,8 +10,8 @@ let countries = [
 ]
 
 Meteor.methods({
-    'soccer.countries': function(){
-        console.log("Hello");
-        return countries;
+    'soccer.countries': function(name){
+        console.log(name);
+        return false;
     }
 });
