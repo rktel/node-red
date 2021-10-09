@@ -3,7 +3,7 @@
   let counter = 0;
   const addToCounter = () => {
     counter += 1;
-    Meteor.call('soccer.countries')
+    Meteor.call('soccer.countries','ClientName')
   };
 </script>
 
