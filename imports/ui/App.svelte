@@ -4,4 +4,6 @@
       <div class="switch__handle switch--material__handle">
       </div>
     </div>
-  </label>
+</label>
+
+<button class="button button--material">BUTTON</button>
