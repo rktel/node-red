@@ -5,8 +5,7 @@ import App from '../imports/ui/App.svelte';
 import 'framework7/framework7-bundle.css';
 Framework7.use(Framework7Svelte);
 
-Meteor.startup(() => {
+
   new App({
     target: document.getElementById('app')
   });
-});
