@@ -8,22 +8,5 @@ export default [
     {
       path: '/',
       component: Home,
-      master(f7) {
-        return f7.theme === 'aurora';
-      },
-    },
-    // About page
-    {
-      path: '/about/',
-      component: About,
-    },
-    // Left Panel
-    {
-      path: '/panel-left/',
-      component: PanelLeft,
-    },
-    // Right Panel
-    {
-      path: '/panel-right/',
-      component: PanelRight,
+
     }]
