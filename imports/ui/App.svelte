@@ -27,7 +27,7 @@
   };
 </script>
 
-<App >
+<App {...f7Params}>
 
   hi
 </App>
