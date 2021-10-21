@@ -10,7 +10,6 @@
   "dependencies": {
     "@babel/runtime": "^7.15.3",
     "framework7": "^6.3.5",
-    "framework7-svelte": "^6.3.5",
     "meteor-node-stubs": "^1.1.0",
     "svelte": "3.27.0"
   },
