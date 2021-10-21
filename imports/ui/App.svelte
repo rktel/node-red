@@ -11,7 +11,7 @@
     id: 'io.framework7.testapp',
     theme,
     routes,
-    store,
+  //  store,
     popup: {
       closeOnEscape: true,
     },
