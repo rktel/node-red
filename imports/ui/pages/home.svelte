@@ -1,25 +1,10 @@
-<script>
-    import {
-      f7,
-      theme,
-      Page,
-      Navbar,
-      NavLeft,
-      NavTitle,
-      NavTitleLarge,
-      NavRight,
-      BlockTitle,
-      List,
-      ListItem,
-      Link,
-      Searchbar,
-    } from 'framework7-svelte';
-    import { onMount } from 'svelte';
- 
-
-
-  </script>
-  
-  <Page class="page-home" >
-hola
+<!-- home.svelte -->
+<Page name="home">
+    <Navbar title="Home Page" />
+    ...
+    <Link href="/about/">About Page</Link>
+    <Link href="/login/">Login Page</Link>
   </Page>
+  <script>
+    import { Page, Navbar, Link } from 'framework7-svelte';
+  </script>
