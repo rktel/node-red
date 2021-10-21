@@ -7,3 +7,7 @@
 </label>
 
 <button class="button button--material">BUTTON</button>
+<div class="toast">
+    <div class="toast__message">Message Message Message Message Message Message</div>
+    <button class="toast__button">ACTION</button>
+  </div>
