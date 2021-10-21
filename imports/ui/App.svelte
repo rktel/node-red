@@ -29,5 +29,5 @@
 
 <App {...f7Params}>
 
-  hi
+  <View main url="/" />
 </App>
