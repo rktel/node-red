@@ -27,7 +27,7 @@
   };
 </script>
 
-<App {...f7Params}>
+<App >
 
-  <View url="/" main={true} class="safe-areas" masterDetailBreakpoint={768} />
+  hi
 </App>
