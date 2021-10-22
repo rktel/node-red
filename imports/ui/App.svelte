@@ -1,25 +1,15 @@
-<div class="tabbar tabbar--top tabbar--material">
-    <label class="tabbar__item tabbar--material__item">
-      <input type="radio" name="tabbar-material-c" checked="checked">
-      <button class="tabbar__button tabbar--material__button">
-        <i class="tabbar__icon tabbar--material__icon zmdi zmdi-phone"></i>
-        <div class="tabbar__label tabbar--material__label">Call</div>
-      </button>
-    </label>
-  
-    <label class="tabbar__item tabbar--material__item">
-      <input type="radio" name="tabbar-material-c">
-      <button class="tabbar__button tabbar--material__button">
-        <i class="tabbar__icon tabbar--material__icon zmdi zmdi-favorite"></i>
-        <div class="tabbar__label tabbar--material__label">Favorites</div>
-      </button>
-    </label>
-  
-    <label class="tabbar__item tabbar--material__item">
-      <input type="radio" name="tabbar-material-c">
-      <button class="tabbar__button tabbar--material__button">
-        <i class="tabbar__icon tabbar--material__icon zmdi zmdi-delete"></i>
-        <div class="tabbar__label tabbar--material__label">Delete</div>
-      </button>
-    </label>
+<div class="alert-dialog-mask alert-dialog-mask--material"></div>
+<div class="alert-dialog alert-dialog--material">
+  <div class="alert-dialog-container alert-dialog-container--material">
+    <div class="alert-dialog-title alert-dialog-title--material">
+      Dialog title
+    </div>
+    <div class="alert-dialog-content alert-dialog-content--material">
+      Some dialog content.
+    </div>
+    <div class="alert-dialog-footer alert-dialog-footer--material">
+      <button class="alert-dialog-button alert-dialog-button--material">OK</button>
+      <button class="alert-dialog-button alert-dialog-button--material">CANCEL</button>
+    </div>
   </div>
+</div>
