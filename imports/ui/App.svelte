@@ -1,25 +1,25 @@
-<div class="tabbar">
-    <label class="tabbar__item">
-      <input type="radio" name="tabbar-a" checked="checked">
-      <button class="tabbar__button">
-        <i class="tabbar__icon ion-ios-square"></i>
-        <div class="tabbar__label">One</div>
+<div class="tabbar tabbar--top tabbar--material">
+    <label class="tabbar__item tabbar--material__item">
+      <input type="radio" name="tabbar-material-c" checked="checked">
+      <button class="tabbar__button tabbar--material__button">
+        <i class="tabbar__icon tabbar--material__icon zmdi zmdi-phone"></i>
+        <div class="tabbar__label tabbar--material__label">Call</div>
       </button>
     </label>
   
-    <label class="tabbar__item">
-      <input type="radio" name="tabbar-a">
-      <button class="tabbar__button">
-        <i class="tabbar__icon ion-ios-radio-button-on"></i>
-        <div class="tabbar__label">Two</div>
+    <label class="tabbar__item tabbar--material__item">
+      <input type="radio" name="tabbar-material-c">
+      <button class="tabbar__button tabbar--material__button">
+        <i class="tabbar__icon tabbar--material__icon zmdi zmdi-favorite"></i>
+        <div class="tabbar__label tabbar--material__label">Favorites</div>
       </button>
     </label>
   
-    <label class="tabbar__item">
-      <input type="radio" name="tabbar-a">
-      <button class="tabbar__button">
-        <i class="tabbar__icon ion-ios-star"></i>
-        <div class="tabbar__label">Three</div>
+    <label class="tabbar__item tabbar--material__item">
+      <input type="radio" name="tabbar-material-c">
+      <button class="tabbar__button tabbar--material__button">
+        <i class="tabbar__icon tabbar--material__icon zmdi zmdi-delete"></i>
+        <div class="tabbar__label tabbar--material__label">Delete</div>
       </button>
     </label>
   </div>
