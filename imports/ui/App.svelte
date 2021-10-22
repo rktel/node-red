@@ -1,21 +1,25 @@
-<div class="toolbar toolbar--material">
-    <div class="toolbar__left toolbar--material__left">
-      <span class="toolbar-button toolbar-button--material">
-        <i class="zmdi zmdi-menu"></i>
-      </span>
-    </div>
-    <div class="toolbar__center toolbar--material__center">
-      Title
-    </div>
-    <div class="toolbar__right toolbar--material__right">
-      <span class="toolbar-button toolbar-button--material">
-        <i class="zmdi zmdi-search"></i>
-      </span>
-      <span class="toolbar-button toolbar-button--material">
-        <i class="zmdi zmdi-favorite"></i>
-      </span>
-      <span class="toolbar-button toolbar-button--material">
-        <i class="zmdi zmdi-more-vert"></i>
-      </span>
-    </div>
+<div class="tabbar">
+    <label class="tabbar__item">
+      <input type="radio" name="tabbar-a" checked="checked">
+      <button class="tabbar__button">
+        <i class="tabbar__icon ion-ios-square"></i>
+        <div class="tabbar__label">One</div>
+      </button>
+    </label>
+  
+    <label class="tabbar__item">
+      <input type="radio" name="tabbar-a">
+      <button class="tabbar__button">
+        <i class="tabbar__icon ion-ios-radio-button-on"></i>
+        <div class="tabbar__label">Two</div>
+      </button>
+    </label>
+  
+    <label class="tabbar__item">
+      <input type="radio" name="tabbar-a">
+      <button class="tabbar__button">
+        <i class="tabbar__icon ion-ios-star"></i>
+        <div class="tabbar__label">Three</div>
+      </button>
+    </label>
   </div>
