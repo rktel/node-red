@@ -1,13 +1,21 @@
-<label class="switch switch--material">
-    <input type="checkbox" class="switch__input switch--material__input">
-    <div class="switch__toggle switch--material__toggle">
-      <div class="switch__handle switch--material__handle">
-      </div>
+<div class="toolbar toolbar--material">
+    <div class="toolbar__left toolbar--material__left">
+      <span class="toolbar-button toolbar-button--material">
+        <i class="zmdi zmdi-menu"></i>
+      </span>
     </div>
-</label>
-
-<button class="button button--material">BUTTON</button>
-<div class="toast">
-    <div class="toast__message">Message Message Message Message Message Message</div>
-    <button class="toast__button">ACTION</button>
+    <div class="toolbar__center toolbar--material__center">
+      Title
+    </div>
+    <div class="toolbar__right toolbar--material__right">
+      <span class="toolbar-button toolbar-button--material">
+        <i class="zmdi zmdi-search"></i>
+      </span>
+      <span class="toolbar-button toolbar-button--material">
+        <i class="zmdi zmdi-favorite"></i>
+      </span>
+      <span class="toolbar-button toolbar-button--material">
+        <i class="zmdi zmdi-more-vert"></i>
+      </span>
+    </div>
   </div>
