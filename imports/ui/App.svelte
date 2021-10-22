@@ -5,7 +5,8 @@
       Dialog title
     </div>
     <div class="alert-dialog-content alert-dialog-content--material">
-      Some dialog content.
+        <button class="fab fab--material"><i class="zmdi zmdi-car"></i></button>
+        <button class="fab fab--material" disabled><i class="zmdi zmdi-car"></i></button>
     </div>
     <div class="alert-dialog-footer alert-dialog-footer--material">
       <button class="alert-dialog-button alert-dialog-button--material">OK</button>
